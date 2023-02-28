@@ -1,0 +1,185 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.similar-section
+{
+    padding:7% 8%;
+}
+.colored-section
+{
+    background-color: #5f3bc1; 
+}
+.white-section
+{
+    background-color: #fff;
+}
+.centered-section
+{
+    text-align: center;
+}
+h1,h2
+{
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;   
+}
+
+
+/* navigation-bar */
+.navbar-brand
+{
+     font-family: 'Playball', cursive;
+    font-size: 30px;
+    margin-left:20px; 
+}
+
+.nav-item
+{
+    padding:5px 20px ;
+    font-family: 'Alata', sans-serif;
+}
+/* navigation-bar */
+
+
+/* title-section */
+.big-heading
+{
+    color: #fff;
+    margin: auto;
+}
+
+.intro
+{
+    font-family: 'Alata', sans-serif;
+    line-height: 2;
+} 
+/* title-section */
+
+
+/* skills-section */
+#skills
+{
+    padding:5% 8%;
+}
+
+.skill-item
+{
+   padding: 5% 7%;
+}
+.skill-icon
+{
+    font-size:50px;
+    line-height: 1.5;
+    color: #774af1e6;
+}
+.neglected-para
+{
+    color:#82878d;
+    font-family:'Alata', sans-serif ;
+    font-size: large;
+}
+/* skills-section */
+
+
+/* opinion-section */
+#opinion
+{
+    color:#fff;
+    
+}
+.carousel-item
+{
+    padding:7% 15%;
+}
+.opinion-img
+{
+    border-radius: 100%;
+    margin: 2% 1%;
+}
+.opinion-text
+{
+    line-height: 2;
+    font-size: 2rem;
+    font-family: 'Alata', sans-serif;
+    font-weight: 800;
+}
+/* opinion-section */
+
+
+/* contact-section */
+.address
+{
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Alata', sans-serif;
+}
+.contact-icon
+{
+    padding:0 10px;
+}
+
+input,textarea
+{
+    width:70%;
+    background-color:#fff;
+    padding:2%;
+    border:2px solid grey;
+
+}
+.form-heading
+{
+    margin-bottom:30px;
+}
+.reachout{
+    padding: 70px 80px 0;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    color:red;
+    font-weight: 400;
+}
+
+/* contact-section */
+
+
+/* about-section */
+.about-paragraph
+{
+    color:#fff;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: 800;
+    font-family: 'Alata', sans-serif;
+}
+/* about-section */
+
+
+/* footer-section */
+.foot-icon
+{
+   margin:0px 10px 15px 10px; 
+   color: rgba(0, 0, 0, 0.773);
+}
+/* footer-section */
+
+
+/* responsive-section */
+@media screen and (max-width:777px)
+{
+    body
+    {
+        text-align: center;
+    }
+    .img-fluid
+    {
+        margin: 30px auto;
+    }
+    .contact-form
+    {
+        margin: 40px auto;
+    }
+    
+}
+/* responsive-section */
